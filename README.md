@@ -44,9 +44,9 @@ E.g:
     /**
     * Returns product information
     */
-	private function getProductDtls() {
-		// Do stuff here
-	}
+    private function getProductDtls() {
+	// Do stuff here
+    }
 ``` 
 Array names **should** be prefix with ```arr``` 
 
