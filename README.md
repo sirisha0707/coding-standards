@@ -1,4 +1,4 @@
-As a developer we should follow coding standards to make code cleaner, easy to read and maintain.
+As a developer we should follow coding standards to make code homogeneous, easy to read and maintain.
 
 ### General Conventions
 - The closing ``` ?> ``` tag must be omitted from files containing only PHP code.
