@@ -1,13 +1,13 @@
 As a developer we should follow coding standards to make code homogeneous, easy to read and maintain.
 
 ### General Conventions
-- The closing ``` ?> ``` tag must be omitted from files containing only PHP code.
-- All PHP files must end with one blank line
+- The closing ``` ?> ``` tag must be omitted from files containing only PHP code
 - Class file should not cross more than 350 lines & a method should not be more than 80 lines
-- Break the line into multiple lines it is causing a horizontal scroll bar.
-- Try to break the logic into smaller functions, which can be reused later.
-- There **must not** be trailing whitespace at the end of lines.
-- ```try-catch``` should be used for the code causing exceptions.
+- Break the line into multiple lines it is causing a horizontal scroll bar
+- Try to break the logic into smaller functions, which can be reused later
+- There **must not** be trailing whitespace at the end of lines
+- All PHP files must end with one blank line
+- ```try-catch``` should be used for the code causing exceptions
 - There should not be empty ```Catch``` block, all exceptions **must** be handled.
 
 
@@ -61,9 +61,9 @@ E.g:
 ```
 
 ### Class Conventions
-* Always declare properties, methods with ```private``` scope & change them when needed.
+* Always declare properties, methods with ```private``` scope & change them when needed
 * Visibility must be defined for all properties & methods
-* Property names should not be prefixed with ```Underscores```.
+* Property names should not be prefixed with ```Underscores```
 * Methods must contain **comments** with the purpose of it in precise manner   
  E.g:
  ```php
