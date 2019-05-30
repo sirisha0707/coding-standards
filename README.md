@@ -74,3 +74,24 @@ E.g:
     }
 ```
 * Class name & the file name must be same
+
+
+## Git Practice
+
+As we are working as a team it is good to follow ```git``` practices to keep all of us in same page & to avoid conflicts.
+
+#### Steps: For Developer
+1. Do ```git pull``` before start of the work & before ```git commit```
+2. Always make **smaller commits**
+3. Commit messages should be precise & should state the work that you have done
+4. Do ```git push``` before leaving the office
+
+**Flow:** ```git pull -> git commit -> git push```
+
+#### Steps: For Project lead
+1. Create a ```develop``` branch before start of the sprint, where the team can work on
+2. Make sure to merge the ```develop``` branch with ```master``` after code is pushed to live
+3. Create a tag for the ```develop``` branch with the release details
+4. Delete the ```develop``` branch
+
+**Note:** ```master``` branch should always contains the production ready code.
