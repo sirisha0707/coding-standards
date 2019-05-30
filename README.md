@@ -13,13 +13,12 @@ As a developer we should follow coding standards to make code homogeneous, easy 
 
 ### Naming Conventions
 Variables **should** be declared using `camelCase` 
-
 E.g:
 ```php
 	$phoneNumber = 8098098089;
 	$packageName = 'Test package';
 ```
-Constants **must** be declared in all upper case with underscore separators.
+Constants **must** be declared in all upper case with underscore separators 
 E.g:
 ```php
 	define('HOST_URL', 'http://localhost/test-project');
@@ -28,14 +27,14 @@ E.g:
 	const VERSION_NUMBER = '3.4.5';
 	const STATUS = 'active';
 ```
-Class names **must** be declared using `PascalCase`
+Class names **must** be declared using `PascalCase` 
 E.g:
 ```php
 	class ProductDetails {
 		// Do stuff here
 	}
 ```
-Method names **must** be declared using `camelCase`
+Method names **must** be declared using `camelCase` 
 E.g:
 ```php
     /**
@@ -45,7 +44,7 @@ E.g:
 		// Do stuff here
 	}
 ``` 
-Array names **should** be prefix with ```arr```
+Array names **should** be prefix with ```arr``` 
 E.g:
 ```php
 	$arrUserInfo = array(
@@ -54,7 +53,7 @@ E.g:
 		'email' => 'sirisha.grandhe@cognizant.com
 	);
 ```
-Object names **should** be prefix with ```obj```
+Object names **should** be prefix with ```obj``` 
 E.g:
 ```php
 	$objUser = new User();
